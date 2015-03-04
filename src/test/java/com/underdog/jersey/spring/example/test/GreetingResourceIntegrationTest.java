@@ -15,7 +15,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  *
  * @author PaulSamsotha
  */
-public class GreetingResourceTest extends JerseyTest {
+public class GreetingResourceIntegrationTest extends JerseyTest {
     
     @Override
     public Application configure() {

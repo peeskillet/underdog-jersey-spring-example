@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {SpringAppConfiguration.class})
-public class GreetingServiceTest {
+public class GreetingServiceUnitTest {
     
     @Autowired
     private GreetingService greetingService;
