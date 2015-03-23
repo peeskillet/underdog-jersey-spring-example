@@ -42,3 +42,15 @@ This is not required, but I prefer it in development, rather than deploying to l
         Server: Jetty(9.2.4.v20141103)
 
         Bonjour, Peeskillet!
+
+-----
+
+###UPDATE
+
+Added Jackson and configured ObjectMapper as a `@Bean` and injected it into the 
+the `ObjectMapperContextResolver`. The configuration is simple. It's just formatting
+the JSON, just to show the configuration works
+
+You can run the app with `mvn jetty:run` and go to 
+
+    curl -v http://localhost:8080/rest/model
